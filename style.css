@@ -1,0 +1,238 @@
+:root{
+    --cor1: #809671;
+    --cor2: #e5e0d8;
+    --cor3: #b3b792; 
+    --cor4: #d2ab80;
+    --cor5: #493d2a;
+    --cor6: #e5d2b8;
+    --fonte1: Verdana, Tahoma, sans-serif;
+    --fonte2: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: var(--cor2);
+    font-family: var(--fonte1);
+    font-size: 12px;
+    margin: 0px;
+    color: var(--cor5)
+}
+
+.titulo{
+    padding: 1.5em;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 16px;
+}
+
+.titulo p{
+    margin-top: 0px;
+}
+
+.titulo h1{
+    margin-bottom: 0px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 2.3em;
+    gap: 32px;
+    margin: 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--cor2);
+    background-color: var(--cor5);
+    padding: 1em;
+    border-radius: 8px;
+}
+
+#sobre{
+    padding: 1.5em;
+    padding-top: 0;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.sobre-conteudo{
+    /*para deixar flexivel dentro do bloco*/
+    display: flex;
+
+    /*dá espaço entre os elementos*/
+    gap: 30px;
+
+    /*quebra linhas dentro do bloco*/
+    flex-wrap: wrap;
+
+    align-items: flex-start;
+    text-align: justify;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.perfil{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    align-items: right;
+}
+
+.texto-sobre{
+    flex: 1;
+    padding-top: 6em;
+    text-align: justify;
+}
+
+.listas-sobre{
+    display: flex;
+
+    /*define o espaço dentro de um container flexível*/
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.lista{
+    flex: 1;
+    min-width: 182px;
+    background-color: var(--cor5);
+    border-radius: 8px;
+    padding-top: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    color: var(--cor6)
+}
+
+.lista ul{
+    list-style-type:circle;
+    padding-left: 20px;
+}
+
+.lista li{
+    margin-bottom: 5px;
+}
+
+#projetos{
+    padding: 1.5em;
+    padding-top: 0;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card{
+    background-color: var(--cor1);
+    border-radius: 8px;
+    padding: 1em;
+    padding-top: 0.3em;
+    margin-bottom: 1em;
+    color: var(--cor2);
+    text-align: center;
+}
+
+.card img{
+    border-radius: 8px;
+    margin: 0.5em;
+}
+
+.card h3{
+    text-align: center;
+}
+
+
+#contato{
+    padding: 1.5em;
+    padding-top: 0.3em;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: var(--cor5);
+    color: var(--cor6);
+    border-radius: 8px;
+}
+
+#contato form{
+    background-color: var(--cor1);
+    color: var(--cor2);
+    padding: 1em 1em 1em 1em;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+#contato input,
+#contato textarea{
+    padding: 10px;
+    border: 1px solid var(--cor5);
+    border-radius: 8px;
+    font-size: 12;
+    background: var(--cor1);
+    color: var(--cor2);
+    margin-top: 3px;
+}
+
+#contato bottom{
+    padding: 0.5em;
+    background-color: var(--cor5);
+    color: var(--cor2);
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: max-content;
+}
+
+.curriculo{
+    display: block;
+    padding: 1em;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    text-align: center;
+    width: max-content;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+a{
+    color: var(--cor1)
+}
+
+.convite{
+    text-align: center;
+    margin:0;
+    font-size: 10px;
+}
+
+footer h3{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+footer{
+    display: flex;
+    flex-direction:column;
+    padding: 0em 1em 1em 1.5em;
+    background-color: var(--cor6);
+    margin-top: 3em;
+}
+
+footer img{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+footer .rede{
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}

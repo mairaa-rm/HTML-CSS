@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maira Machado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+           <h1>Maira Rocha Machado</h1>
+            <p>Portifólio pessoal</p> 
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+       <section id="sobre">
+            <h2>Sobre</h2>
+
+            <div class="sobre-conteudo">
+                <img src="fotos/foto200px.jpg" alt="Uma mulher loira sorrindo" class="perfil">
+
+                <div class="texto-sobre">
+                    <p>Sou uma estudante de Análise e Desenvolvimento de Sistemas que busca desenvolver, a cada dia, um pouco mais de suas habilidades. Este projeto tem o intuito de apresentar tudo que venho praticando sobre HTML e CSS. Futuramente, pretendo criar um projeto com o que irei aprender sobre JavaScript e Banco de Dados, para páginas web mais interativas.</p>
+                </div>
+
+                <div class="listas-sobre">
+
+                    <div class="lista">
+                        <h3>Objetivos</h3>
+                        <ul>
+                            <li>Tornar-me uma profissional full-stack</li>
+                            <li>Trabalhar em home office</li>
+                            <li>Explorar a área de cibersegurança</li>
+                        </ul>
+                    </div>
+
+                    <div class="lista">
+                        <h3>Valores</h3>
+                        <ul>
+                            <li>Compromisso</li>
+                            <li>Esforço</li>
+                            <li>Dedicação</li>
+                            <li>Aprendizado contínuo</li>
+                        </ul>
+                    </div>
+
+                    <div class="lista">
+                        <h3>Habilidades em desenvolvimento</h3>
+                        <ul>
+                            <li>Desenvolvimento de páginas web</li>
+                            <li>Programação em Java</li>
+                            <li>Análise de dados com Python</li>
+                            <li>Edição de fotos com GIMP</li>
+                            <li>Banco de dados com PostgreSQL</li>
+                            <li>Análise e projeto de sistemas</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+                <div class="card">
+                    <h3>Banco de dados relacional</h3>
+                    <p>Um banco de dados para a gestão acadêmica de uma faculdade</p>
+                    <img src="fotos/banco200px.png" alt="Um print de um terminal do postgreSQL do banco relacional">
+                    <img src="fotos/tabelas200px.png" alt="Um print das tabelas presentes no banco">
+                    <p><strong>Tecnologias e Ferramentas: </strong>PostgreSQL,  Linguagem SQL, Modelos e diagramas UML.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Análise de dados de vendas de uma loja</h3>
+                    <p>Utilizei uma base de dados fícitia para pôr em prática meus aprendizados sobre limpeza e tratamento de dados com python, então após esse processo pude filtrar os dados e tirar conclusões a respeito deles.</p>
+                    <img src="fotos/pandas 1.png" alt="">
+                    <img src="fotos/pandas 2.png" alt="">
+                    <img src="fotos/pandas 3.png" alt="">
+                    <p><strong>Tecnologias e ferramentas: </strong>Python, Google Colab e biblioteca pandas</p>
+                </div>
+
+                <div class="card">
+                    <h3>Análise de dados de uma rede de lojas</h3>
+                    <p>Com uma base de dados de diversas franquias de uma rede de lojas, fiz a limpeza e organização dos dados. Então comecei os cálculos de lucros e após isso iniciei o processo de filtração para a obteção de informações úteis para os tomadores de decisão dessa empresa fictícia.</p>
+                    <img src="fotos/matplotlib 1.png" alt="">
+                    <img src="fotos/matplotlib 2.png" alt="">
+                    <img src="fotos/matplotlib 3.png" alt="">
+                    <p><strong>Tecnologias e ferramentas: </strong>Python, Google Colab e bibliotecas pandas e matplotlib</p>
+                </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contatos</h2>
+            <p>Fique à vontade para entrar em contato comigo por meio do email ou formulário abaixo. </p>
+            <p>Email: <a href="mailto: mairamachado1908@gmail.com">mairamachado1908@gmail.com</a></p>
+
+            <form>
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br>
+
+                <bottom type="submit">Enviar</bottom>
+            </form>
+
+            <a href="curriculomairamachado.pdf" download="curriculomairamachado" class="curriculo">Baixar currículo</a><br><br>
+
+            <p class="convite">Você também pode me encontrar nas redes sociais ao final da página!</p>
+
+        </section>
+    </main>
+
+    <footer>
+        <h3>Redes Sociais</h3>
+        <div class="rede">
+           <img src="fotos/insta.png" alt="icone do instagram">
+            <p>Instagram: <a href="https://www.instagram.com/mairaa.rm/" target="_blank">mairaa.rm</a></p> 
+        </div>
+        
+        <div class="rede">
+            <img src="fotos/linkedin.png" alt="icone do linkedin">
+            <p>Linkedin: <a href="https://www.linkedin.com/in/maira-rocha-machado-15a05a30b" target="_blank">Maira Rocha Machado</a></p>
+        </div>
+      
+        <div class="rede">
+            <img src="fotos/github.png" alt="icone do github">
+            <p>GitHub: <a href="https://github.com/mairaa-rm" target="_blank">mairaa-rm</a></p>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
